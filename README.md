@@ -5,7 +5,7 @@ ridiculous. As a result of being unable to resolve the issue I have redirected t
 Eventually I will pay for hosting...but until then:
 
 
-##Clone the repo. 
+## Clone the repo. 
 
 `npm install`
 `npm run dev`
