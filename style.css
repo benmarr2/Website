@@ -9,7 +9,7 @@ canvas {
 
 :root {
   --dark-bg: rgba(0, 85, 255, 0.15);
-  --spacing: 350px;
+  --spacing: 200px;
 
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
@@ -27,7 +27,7 @@ main {
   padding: 120px 0px;
   
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 2fr);
 }
 
 h1, h2, h3, blockquote {
@@ -40,14 +40,14 @@ h1, h2, h3, blockquote {
 
 header {
   background: var(--dark-bg);
-  grid-column: 2 / span 5;
+  grid-column: 2 / 9;
   font-size: 2.5rem;
   padding: 2rem;
   margin-bottom: var(--spacing);
 }
 
 section {
-  grid-column: 2 / 7;
+  grid-column: 2 / 8;
   padding: 1rem;
   background: var(--dark-bg);
   font-size: 1.25rem;
