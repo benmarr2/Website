@@ -6,7 +6,6 @@ canvas {
   left: 0;
 }
 
-
 :root {
   --dark-bg: rgba(0, 85, 255, 0.15);
   --spacing: 200px;
@@ -15,7 +14,6 @@ canvas {
   font-weight: 400;
   font-style: normal;
 }
-
 
 main {
   width: 100vw;
@@ -36,11 +34,14 @@ h1, h2, h3, blockquote {
   font-style: normal;
 }
 
-
+.jobTitle {
+  color: orangered;
+  font-size: 20px;
+}
 
 header {
   background: var(--dark-bg);
-  grid-column: 2 / 9;
+  grid-column: 2 / 8;
   font-size: 2.5rem;
   padding: 2rem;
   margin-bottom: var(--spacing);
@@ -72,4 +73,19 @@ blockquote p {
 
 .left {
   grid-column: 6 / 12;
+}
+
+@media screen and (max-width: 800px) {
+  header{
+    grid-column: 2/12 ;
+  }
+
+  section {
+    grid-column: 2/12;
+  }
+
+  .left {
+    grid-column: 2/12;
+  }
+  
 }
