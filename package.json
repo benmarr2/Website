@@ -1,12 +1,16 @@
 {
+  "homepage": "https://benmarr2.github.io/Portfolio",
   "name": "portfolio",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "vite": "^2.5.2",
     "vite-plugin-string": "^1.0.1"
   },
