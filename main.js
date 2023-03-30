@@ -77,7 +77,7 @@ const mars = new THREE.Mesh(new THREE.SphereGeometry(5, 50, 16), new THREE.Shade
   fragmentShader,
   uniforms: {
     marsTexture: {
-      value: new THREE.TextureLoader().load('images/mars.jpg')
+      value: new THREE.TextureLoader().load('images/night_earth_map.jpg')
     }
   }
 }));
@@ -118,7 +118,6 @@ function createMoon(radius, orbit, speed){
 }
 
 createMoon(1, 10, 5);
-createMoon(0.5, 20, 5)
 
 function animate(){
 
